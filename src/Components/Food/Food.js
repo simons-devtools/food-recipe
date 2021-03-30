@@ -32,17 +32,19 @@ const Food = (props) => {
                         <CardMedia
                             className={classes.media}
                             image={strMealThumb}
-                            title="Meal-title"
+                            title="Click to watch video"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">{strMeal}</Typography>
+                            {/* <Typography variant="body2" color="textSecondary" component="p"><span>Categories: {strCategory}</span> <span>Tags: {strTags}</span></Typography> */}
+                            {/* <Typography variant="body2" color="textSecondary" component="p">{strInstructions}</Typography> */}
                             <Typography variant="body2" color="textSecondary" component="p">Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica</Typography>
                         </CardContent>
                     </CardActionArea>
                 </a>
                 <CardActions>
                     <Button size="small" color="primary">Share</Button>
-                    <Button size="small" color="primary">Learn More</Button>
+                    <Button size="small" color="primary">Show detail</Button>
                 </CardActions>
             </Card>
         </div>
